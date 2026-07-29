@@ -8,10 +8,10 @@ public:
 
         for(int i=0; i<nums.size(); i++)
         {
-            int comp_element = target-nums[i];
-            if(mp.find(comp_element) != mp.end())
+            int comp_element = target - nums[i];
+            if (mp.find(comp_element) != mp.end())
             {
-                return{mp[comp_element], i};
+                return {mp[comp_element], i};
             }
             else
             {
